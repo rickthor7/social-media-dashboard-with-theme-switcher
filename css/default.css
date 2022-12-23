@@ -14,7 +14,7 @@
 	/* Theme - Light */
 	--color-extra-pale-blue: hsl(225, 100%, 98%); /* Top Background Pattern */
 	--color-light-gray-blue: hsl(227, 47%, 96%); /* Card Background */
-	--color-dark-gray-blue: hsl(228, 12%, 44%); /* Text */
+	--color-dark-gray-blue: hsl(228, 12%, 39%); /* Text (WCAG Contrast Corrected) */
 	--color-light-gray-blue-hover: hsl(227, 47%, 88%); /* Card Background Hover */
 	--color-dark-lime-green: hsl(163, 72%, 28%); /* Stat Trend (WCAG Contrast Corrected) */
 	--color-dark-red: hsl(356, 69%, 49%); /* Stat Trend (WCAG Contrast Corrected) */

@@ -171,7 +171,7 @@ h1 {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: linear-gradient(90deg, var(--color-toggle-background), var(--color-toggle-background));
+	background: var(--gradient-toggle-background);
 	-webkit-transition: .3s;
 	transition: .3s;
 }
@@ -188,15 +188,15 @@ h1 {
 	transition: .3s;
 }
 
-.toggle-checkbox:checked + .slider {
-	background: var(--gradient-toggle-background);
+.toggle-checkbox:not(:checked) + .slider {
+	background: linear-gradient(90deg, var(--color-toggle-background), var(--color-toggle-background));
 }
 
 .toggle-checkbox:focus + .slider {
 	outline: 3px solid var(--color-text-primary);
 }
 
-.toggle-checkbox:checked + .slider:before {
+.toggle-checkbox:not(:checked) + .slider:before {
 	-webkit-transform: translateX(1.5rem);
 	-ms-transform: translateX(1.5rem);
 	transform: translateX(1.5rem);

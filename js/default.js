@@ -5,17 +5,17 @@
 	}
 
 	function toggleTheme() {
-		if (localStorage.getItem('theme') === 'theme-dark') {
-			setTheme('theme-light');
-		} else {
+		if (localStorage.getItem('theme') === 'theme-light') {
 			setTheme('theme-dark');
+		} else {
+			setTheme('theme-light');
 		}
 	}
 
-	if (localStorage.getItem('theme') === 'theme-dark') {
-		setTheme('theme-dark');
-	} else {
+	if (localStorage.getItem('theme') === 'theme-light') {
 		setTheme('theme-light');
+	} else {
+		setTheme('theme-dark');
 	}
 	document.getElementById('theme-checkbox').addEventListener('change', toggleTheme, false);
 })();

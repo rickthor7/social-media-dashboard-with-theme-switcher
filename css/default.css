@@ -60,7 +60,7 @@
 	--color-text-secondary: var(--color-muted-blue);
 	--color-stat-trend-up: var(--color-light-lime-green);
 	--color-stat-trend-down: var(--color-light-red);
-	--color-toggle-switch: var(--color-white);
+	--color-toggle-switch: var(--color-extra-dark-blue1);
 }
 
 /* Resets */
